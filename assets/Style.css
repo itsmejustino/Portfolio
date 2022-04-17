@@ -49,6 +49,16 @@ color: white;
   background-color: rgb(108, 110, 112);
 }
 
+.linkdn{
+ 
+    border-radius: 1px;
+    color: white;
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 18px;
+}
+
+
 .github:hover{
   background-color: rgb(108, 110, 112);
 }
@@ -175,32 +185,7 @@ position:sticky;
 
 }
 
-.linkdn:hover{
-  background-color: rgb(108, 110, 112);
-}
 
-.linkdn{
- 
-    border-radius: 1px;
-    color: white;
-    padding: 0 auto;
-    text-decoration: none;
-    text-decoration-style: none;
-    font-size: 18px;
-}
-
-.email{
-
-  background-color: #e7e7e7;
-  border-color: black 50px;
-  
-  color: black;
-  padding: 0;
-  text-align: center;
-  text-decoration: none;
-  display: block;
-  font-size: 18px;
-}
 
 
 /*  End The Socials.    */
@@ -215,8 +200,6 @@ position:sticky;
   padding: 250px;
   text-align: center;
   
-
-
 }
 
 .content {
