@@ -116,17 +116,25 @@ color: white;
   font-size: 18px;
 }
 
+.libraries{
+ text-align: center;
+ position: relative;
+}
 
-#libraries{
-  list-style-type: none;
-  display: inline;
+.libraries li {
+color:white;
+display:inline-block;
+list-style-type: none;
+text-decoration: none;
+text-align: center;
+font-size: 18px;
+
 }
 
 .project{
   color: White;
   text-align: center;
   text-decoration: none;
-  text-decoration-style: none;
   font-size: 25px;
   padding: 2px;
 }
@@ -147,6 +155,7 @@ color: white;
     text-decoration-style: none;
     font-size: 18px;
 }
+
 
 
 
@@ -189,13 +198,13 @@ position:sticky;
 .copyright
 {
   color: black;
-  display: inline-block;
-  padding: 250px;
+  
   text-align: center;
   
 }
 
 .content {
+  padding-top: 35px;
 color:white;
 text-align: center;
 font-size: 18px;
