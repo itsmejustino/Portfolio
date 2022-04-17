@@ -14,18 +14,6 @@ p {
 color: white;
 }
 
-/* not using 
-a:link, a:visited {
-  background-color: none;
-  border-radius: 1px 0px;
-  border-spacing: 10px;
-  color: white;
-  padding: 0px;
-  text-align: center;
-  text-decoration-style: none ;
-  display: inline;
-}
-*/
 a:hover {
   background-color: rgb(108, 110, 112);
 }
