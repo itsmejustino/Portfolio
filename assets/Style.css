@@ -14,6 +14,7 @@ p {
 color: white;
 }
 
+/* not using 
 a:link, a:visited {
   background-color: none;
   border-radius: 1px 0px;
@@ -21,10 +22,10 @@ a:link, a:visited {
   color: white;
   padding: 0px;
   text-align: center;
-  text-decoration-style:double ;
+  text-decoration-style: none ;
   display: inline;
 }
-
+*/
 a:hover {
   background-color: rgb(108, 110, 112);
 }
@@ -34,8 +35,14 @@ a:hover {
 text-align: center;
 margin:auto;
 font-size: 30px;
-display: inline-block;
+display: inline;
 color: white;
+}
+.navigation{
+  display: inline;
+  list-style-type: none;
+  float: right;
+  display: inline;
 }
 
 .linkdn:hover{
@@ -45,23 +52,67 @@ color: white;
 .github:hover{
   background-color: rgb(108, 110, 112);
 }
-
-#nav-list {
-display: inline;
-text-decoration: none;
-float: right;
-font-size: 16px;
-color:white;
-list-style: none;
+.github{
+  display: inline;
+  border-radius: 1px;
+    color: white;
+    padding: 0 auto;
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 18px;
 }
 
-.navigation{
-  
-  margin: 0 auto;
-  list-style-type: none;
-  padding: 0; /* Remove padding */
-  border-radius:10px 2px;
+.resume:hover {
+  background-color: rgb(108, 110, 112);
 }
+.resume {
+  border-radius: 1px;
+  color: white;
+  padding: 0 auto;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 18px;
+}
+
+
+
+#pr1{
+  border-radius: 1px;
+  color: white;
+  padding: 0 auto;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 18px;
+}
+
+#pr2{
+  border-radius: 1px;
+  color: white;
+  padding: 0 auto;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 18px;
+}
+
+#pr3{
+  border-radius: 1px;
+  color: white;
+  padding: 0 auto;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 18px;
+}
+
+#pr4{
+  border-radius: 1px;
+  color: white;
+  padding: 0 auto;
+  text-decoration: none;
+  text-decoration-style: none;
+  font-size: 18px;
+}
+
+
 
 #content-box{
 text-align:center;
@@ -85,6 +136,8 @@ margin:auto;
 .project{
   color: White;
   text-align: center;
+  text-decoration: none;
+  text-decoration-style: none;
   font-size: 25px;
   padding: 2px;
 }
@@ -92,15 +145,18 @@ margin:auto;
 .projects-nav{
   display: inline;
   list-style-type: none;
-  text-decoration: none;
-  padding: 10px;
   position: 50%;
   text-align: center; 
 }
 
-.projects-nav li{
-padding: 5px;
-text-decoration: none;
+.projects-nav li {
+   padding: 5px;
+    border-radius: 1px;
+    color: white;
+    padding: 0 auto;
+    text-decoration: none;
+    text-decoration-style: none;
+    font-size: 18px;
 }
 
 
@@ -119,13 +175,13 @@ position:sticky;
   margin: 0 auto;
   display: block;
   padding: 5px;
-border-color: black;
-border-style: double;
+  border-color: black;
+  border-style: double;
 }
 
 
 .no-bullets {
-list-style-type: none; /* Remove bullets */
+ list-style-type: none; /* Remove bullets */
  text-align: center;
  position:center;
  display: inline-block;
@@ -143,6 +199,7 @@ list-style-type: none; /* Remove bullets */
     color: white;
     padding: 0 auto;
     text-decoration: none;
+    text-decoration-style: none;
     font-size: 18px;
 }
 
