@@ -3,7 +3,7 @@ html {
  
   width: 100%;
   height: auto;
-  font-family: sans-serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body{
@@ -15,12 +15,12 @@ body{
 
 a:link, a:visited {
   background-color: darkgrey;
-  border-radius: 10px 5px;
-  border-spacing: 5px;
+  border-radius: 1px 0px;
+  border-spacing: 10px;
   color: white;
   padding: 0px;
   text-align: center;
-  text-decoration-style: solid;
+  text-decoration-style:double ;
   display: inline;
 }
 
@@ -65,8 +65,9 @@ list-style: none;
 
 #content-box{
 text-align:center;
-  float: center;
-position:relative;
+float: center;
+position: static;
+padding: 100px;
 }
 .Soc-media{
   color:white;
@@ -84,7 +85,7 @@ position:relative;
 
 .projects{
   list-style-type: none;
-  padding: 0px;
+  padding: 0px 15px;
   position: 50%;
   text-align: center;
   margin: auto;
@@ -134,26 +135,11 @@ list-style-type: none; /* Remove bullets */
     font-size: 18px;
 }
 
-#github
-{
-  background-color: grey; 
-  border-radius: 20px;
-  color: white;
-  padding: 0;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-
-}
-#github:hover{
-background-color:steelblue;
-}
-
 .email{
 
   background-color: #e7e7e7;
   border-color: black 50px;
-  border-radius:5px;
+  
   color: black;
   padding: 0;
   text-align: center;
