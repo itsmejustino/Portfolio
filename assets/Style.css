@@ -10,16 +10,12 @@ html {
   background-size: cover;
 }
 
- 
-  
-
-
 p {
 color: white;
 }
 
 a:link, a:visited {
-  background-color: darkgrey;
+  background-color: none;
   border-radius: 1px 0px;
   border-spacing: 10px;
   color: white;
@@ -29,9 +25,10 @@ a:link, a:visited {
   display: inline;
 }
 
-a:hover, a:active {
+a:hover {
   background-color: rgb(108, 110, 112);
 }
+
 
 .title{
 text-align: center;
@@ -41,28 +38,29 @@ display: inline-block;
 color: white;
 }
 
-#nav-list:hover{
+.linkdn:hover{
+  background-color: rgb(108, 110, 112);
+}
+
+.github:hover{
   background-color: rgb(108, 110, 112);
 }
 
 #nav-list {
 display: inline;
-text-align: center;
+text-decoration: none;
 float: right;
 font-size: 16px;
 color:white;
-margin: 2px;
 list-style: none;
 }
 
 .navigation{
-  text-align: right;
-  width: 100%;
-  top: 50%;
+  
   margin: 0 auto;
   list-style-type: none;
   padding: 0; /* Remove padding */
-  border-radius:10px 20px;
+  border-radius:10px 2px;
 }
 
 #content-box{
@@ -71,6 +69,11 @@ position: static;
 padding: 100px;
 margin:auto;
 }
+#libraries{
+  list-style-type: none;
+  display: inline;
+}
+
 .Soc-media{
   color:white;
   text-align: center;
@@ -82,22 +85,24 @@ margin:auto;
 .project{
   color: White;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
   padding: 2px;
 }
 
-.projects{
+.projects-nav{
+  display: inline;
   list-style-type: none;
-  padding: 0px 15px;
+  text-decoration: none;
+  padding: 10px;
   position: 50%;
-  text-align: center;
-  margin: auto;
+  text-align: center; 
 }
 
-#projects-nav{
-margin:auto;
-
+.projects-nav li{
+padding: 5px;
+text-decoration: none;
 }
+
 
 
 /*  Start The Socials.    */
@@ -128,9 +133,12 @@ list-style-type: none; /* Remove bullets */
 
 }
 
-.linkdn{
+.linkdn:hover{
+  background-color: rgb(108, 110, 112);
+}
 
-    background-color: grey; 
+.linkdn{
+ 
     border-radius: 1px;
     color: white;
     padding: 0 auto;
