@@ -117,14 +117,6 @@ color: white;
 }
 
 
-
-#content-box{
-text-align:center;
-position: static;
-padding: 100px;
-margin:auto;
-}
-
 #libraries{
   list-style-type: none;
   display: inline;
@@ -132,6 +124,7 @@ margin:auto;
 
 .project{
   color: White;
+  text-align: center;
   text-decoration: none;
   text-decoration-style: none;
   font-size: 25px;
