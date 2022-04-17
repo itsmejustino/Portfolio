@@ -25,7 +25,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  background-color: steelblue;
+  background-color: rgb(108, 110, 112);
 }
 
 .title{
@@ -34,6 +34,11 @@ float: left;
 margin:auto;
 font-size: 30px;
 color: white;
+}
+
+#nav-list:hover{
+  background-color: rgb(108, 110, 112);
+
 }
 
 #nav-list {
@@ -58,27 +63,17 @@ list-style: none;
   border-radius:10px 20px;
 }
 
-
+#content-box{
+text-align:center;
+  float: center;
+position:relative;
+}
 .Soc-media{
   color:white;
   text-align: center;
   font-size: 14px;
   margin: 0 auto;
 }
-
-.main-pic
-{
-  position: relative;
-  display: block;
-margin-left: auto;
-margin-right: auto;
-  width: 400px;
-  top: 30px;
-  margin: 0 auto;
-  border-radius: 50%;
-}
-
-
 
 .project{
   color: White;
@@ -147,7 +142,6 @@ list-style-type: none; /* Remove bullets */
   padding: 0;
   text-align: center;
   text-decoration: none;
-  
   font-size: 20px;
 
 }
