@@ -39,7 +39,6 @@ display: inline;
 color: white;
 }
 .navigation{
-  display: inline-block;
   list-style-type: none;
   float: right;
   display: inline;
